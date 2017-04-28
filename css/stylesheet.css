@@ -6,8 +6,6 @@
   font-family: 'Roboto', sans-serif;
   background-color: #3990b9;
 }
-
-
 /*nav start*/
 
 .nav-image {
@@ -71,15 +69,11 @@
 .li-nav a:hover {
   background: #3990b9;
 }
-
-
 /*nav bar end*/
 
 
 /*index.html start*/
-
 .container {
-  /* container-under-nav*/
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -132,9 +126,7 @@
   margin: 0px auto;
   margin-top: 20px
 }
-
-
-/*end of continer-under-nav*/
+/*end of continer*/
 
 .container-cir {
   display: flex;
@@ -146,16 +138,13 @@
 }
 
 .wrapper-cir {
-  /*wrapper for content*/
   display: flex;
   flex-wrap: wrap;
-  /*col-text-wrap*/
   order: 5;
   margin-top: 8%;
 }
 
 .cir-left, .cir-mid, .cir-left {
-  /*children for continer*/
   display: flex;
   border: 5px solid #3990b9;
   background-color: #fcfcfc;
@@ -180,7 +169,6 @@
   border: 5px solid #3990b9;
   transform: scale(1.3);
 }
-
 
 /*end of index.html*/
 
