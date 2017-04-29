@@ -1,7 +1,7 @@
     body {
   display: flex;
   flex-direction: column;
-  min-height: -100vh;
+  min-height: 100vh;
   margin: 0;
   font-family: 'Roboto', sans-serif;
   background-color: #3990b9;
@@ -210,9 +210,10 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
   font-weight: 300;
-  float: left;
+  float:left;
   margin-right: 45%;
-  margin-left: 3% color: #f7f7f7;
+  margin-left:3%;
+  color: #f7f7f7;
 }
 
 
@@ -314,14 +315,11 @@
 
 div.description {
   position: absolute;
-  /* absolute position (so we can position it where we want)*/
   bottom: 0px;
-  /* position will be on bottom */
   left: 0px;
   width: 100%;
   color: white;
   opacity: 0.5;
-  /* transparency */
   text-align: center;
 }
 
@@ -333,9 +331,7 @@ p.description_content {
 
 div.description1 {
   position: absolute;
-  /* absolute position (so we can position it where we want)*/
   bottom: 0px;
-  /* position will be on bottom */
   left: 0px;
   width: 610px;
   color: BLUE;
@@ -540,51 +536,4 @@ p.description_content1 {
   }
   .footer-container {
     justify-content: flex-end;
-    order: 20;
-  }
-  /*END OF INDEX.html*/
-  /*smaller screens*/
-  @media screen and (max-width: 500px) {
-    .contianer-nav {
-      height: 175px;
-    }
-    .nav-wrapper {
-      flex-direction: column;
-      width: 100%;
-      font-size: 1.2em;
-    }
-    .ul-nav {
-      justify-content: center;
-    }
-    .nav-image {
-      justify-content: center;
-      margin-top: 5%;
-    }
-    .heading-un {
-      font-size: 1.5em;
-      justify-content: center;
-    }
-    .heading-un:hover {
-      letter-spacing: 0.2em;
-      color: #f7f7f7;
-      text-shadow: 1px 1px 5px rgba(150, 150, 150, 0.99);
-    }
-    .image-un {
-      max-width: 100%;
-      max-height: 100%;
-    }
-    .continer-cir {
-      height: 850px;
-    }
-    .wrapper-cir {
-      flex-wrap: wrap;
-      justify-content: center;
-      flex-grow: 1;
-    }
-    .cir-left, .cir-mid, .cir-left {
-      flex-direction: row;
-      flex-wrap: wrap;
-      width: 150px;
-      height: 150px;
-      justify-content: center;
-    }
+    order: 20;}}
